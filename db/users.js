@@ -1,5 +1,8 @@
 var records = [
-    // add users here
+    { id:1, username:'westcliff', password: 'secret', displayName:
+  'WestCliff', emails: [ { value: 'west@example.com' } ] }
+  , {id:2, username:'westcliffclass', password: 'birthday',
+displayName: 'Westcliff University', email: [ { value: 'cliff@example.com' } ] }
 ];
 
 exports.findById = function(id, cb) {
